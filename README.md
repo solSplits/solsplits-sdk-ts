@@ -10,7 +10,7 @@ This is a Web3 Typescript/Javascript client for the SolSplits Protocol, allowing
 ## Installation
 
 ```bash
-npm install @yourusername/solsplits-web3-client
+npm install @solsplits/solsplits-web3-client
 ```
 
 ## Accounts
@@ -33,7 +33,7 @@ Instructions are the core of this package, providing all the logic for creating 
 ## Usage
 
 ```javascript
-import SolSplits from '@yourusername/solsplits-web3-client';
+import SolSplits from '@solsplits/solsplits-web3-client';
 
 const { Accounts, Errors, Instructions, PROGRAM_ID } = SolSplits
 // Example usage with the Accounts module

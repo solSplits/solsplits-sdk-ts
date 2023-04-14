@@ -1,6 +1,6 @@
 {
   "name": "@solsplits/solsplits-sdk-ts",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Typescript Client for the SolSplits Protocol",
   "exports": {
     ".": {
