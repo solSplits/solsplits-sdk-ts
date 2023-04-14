@@ -9,9 +9,9 @@ This is a Web3 Typescript/Javascript client for the SolSplits Protocol, allowing
 
 ## Installation
 
-\```bash
+```bash
 npm install @yourusername/solsplits-web3-client
-\```
+```
 
 ## Accounts
 
@@ -32,9 +32,10 @@ Instructions are the core of this package, providing all the logic for creating 
 
 ## Usage
 
-\```javascript
-import { Accounts, Errors, Instructions, PROGRAM_ID } from '@yourusername/solsplits-web3-client';
+```javascript
+import SolSplits from '@yourusername/solsplits-web3-client';
 
+const { Accounts, Errors, Instructions, PROGRAM_ID } = SolSplits
 // Example usage with the Accounts module
 const configAccount = Accounts.config(params);
 
@@ -49,7 +50,7 @@ try {
 
 // Example usage with the Instructions module
 const createSplitInstruction = Instructions.createSplit(params);
-\```
+```
 
 ## License
 
@@ -61,4 +62,4 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
 ## Support
 
-If you have any questions, issues or feature requests, feel free to open an issue in the repository or reach out to us through our [community chat](https://discord.gg/your_discord_invite_link).
+If you have any questions, issues or feature requests, feel free to open an issue in the repository or reach out to us through our [Discord Community](https://discord.com/invite/fQDPHVxceP).
