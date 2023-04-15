@@ -22,25 +22,25 @@ Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a pos
 1. Fork the repository on GitHub.
 
 2. Clone your fork of the repository:
-   \```
+   ```
    git clone https://github.com/YOUR_USERNAME/solsplits-web3-client.git
-   \```
+   ```
 
 3. Add the original repository as a remote called `upstream`:
-   \```
+   ```
    git remote add upstream https://github.com/ORIGINAL_OWNER/solsplits-web3-client.git
-   \```
+   ```
 
 4. Keep your fork in sync with the upstream repository by regularly pulling changes:
-   \```
+   ```
    git pull upstream main
-   \```
+   ```
 
 5. Install dependencies and build the project:
-   \```
+   ```
    npm install
    npm run build
-   \```
+   ```
 
 ## Reporting Issues
 
@@ -53,16 +53,16 @@ We welcome ideas for new features! Please open an issue describing the feature, 
 ## Pull Requests
 
 1. Create a new branch from the latest `main` branch in your fork:
-   \```
+   ```
    git checkout -b feature/your-feature-name main
-   \```
+   ```
 
 2. Implement your changes and commit them using descriptive commit messages.
 
 3. Push your branch to your fork:
-   \```
+   ```
    git push origin feature/your-feature-name
-   \```
+   ```
 
 4. Create a pull request (PR) from your branch to the original repository's `main` branch. Include a clear description of your changes and any relevant context or motivation.
 
@@ -82,9 +82,9 @@ Please follow these coding guidelines to maintain consistency and readability th
 Ensure that your changes pass all tests and do not introduce new issues:
 
 1. Run the test suite:
-   \```
+   ```
    npm run test
-   \```
+   ```
 
 2. Add new tests for any added functionality or bug fixes.
 
